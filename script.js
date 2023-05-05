@@ -1,16 +1,11 @@
-(function() {
-    const card = document.getElementById("cardID");
-    const addAccount = document.getElementById("addAccountID");
-    const cancelAdding = document.getElementById("cancelAddingID");
-
-
-    addAccount.addEventListener("click", function() {
+(function () {
+    var card = document.getElementById("cardID");
+    var addAccount = document.getElementById("addAccountID");
+    var cancelAdding = document.getElementById("cancelAddingID");
+    addAccount.addEventListener("click", function () {
         card.classList.remove("hidden");
-    })
-
-    cancelAdding.addEventListener("click", function() {
+    });
+    cancelAdding.addEventListener("click", function () {
         card.classList.add("hidden");
-    })
-
-    
+    });
 })();

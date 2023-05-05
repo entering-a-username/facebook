@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-slate-200 relative">
+
+
+
+    <!--CHAMOSASHLELI CARD-->
+    <div id="smallCardID" class="hidden">
+        <div class="mt-1 w-0 h-0 absolute top-14 right-2 rotate-180
+            border-l-[10px] border-l-transparent
+            border-t-[8px] border-t-white
+            border-r-[10px] border-r-transparent"></div>
+    <div class="absolute w-[290px] flex flex-col shadow-lg right-2 top-[73px] bg-slate-200 rounded-md border border-gray-300">
+        <div class="bg-white px-4 py-2 text-sm">
+            <label class="text-gray-800 font-semibold" for="email-or-phone">Email or phone</label>
+            <input class="focus:outline-none w-[100%] border border-gray-300 pl-2 py-1" type="text" name="email-or-phone"><br>
+            <label class="text-gray-800 font-semibold" for="password">Password</label>
+            <input class="focus:outline-none w-[100%] border border-gray-300 pl-2 py-1" type="password" name="password">
+            <a href="" class="hover:underline text-blue-600 ml-[155px]">Forgot account?</a><br>
+            <div class="flex justify-center bg-[#3b5998] rounded-sm mt-3 mb-4 hover:bg-blue-900 hover:duration-700">
+                <button class="text-white py-2 px-10 font-semibold">Log In</button>
+            </div>    
+        </div>
+        <p class="text-gray-600 text-sm text-center mt-3">Do you want to join Facebook?</p>
+        <div class="flex justify-center items-center mt-2 mb-4">
+            <button class="hover:bg-green-700 hover:duration-700 text-white text-sm px-2 py-1 font-semibold rounded-sm bg-green-600 w-[100px]">Sign Up</button>
+        </div>
+
+    </div>
+    </div>
+
+
+    <nav class="bg-[#3b5998] flex items-center justify-between gap-3 pt-2">
+        <div class="flex items-center justify-start gap-3"><a href="index.html"><img class="w-48 cursor-pointer" src="fb.png" alt="Facebook"></a>
+            <button class="bg-green-600 text-white text-xs px-3 py-2 rounded-sm font-bold hover:bg-green-700 hover:duration-700">Sign Up</button>
+        </div>
+
+        <div id="arrowDownID" class="flex justify-center items-center gap-2 mr-3 cursor-pointer">
+            <p class="text-white">Join or Log Into Facebook</p>
+            <div class="mt-1 w-0 h-0 
+            border-l-[6px] border-l-transparent
+            border-t-[7px] border-t-white
+            border-r-[6px] border-r-transparent"></div>
+        </div>
+        
+    </nav>
+
+    <header class="ml-2">
+        <div class="mt-3"><b class="text-2xl">Create a Page</b>
+            <p class="mt-2">Connect your business, yourself or your cause to the worldwide community of people on Facebook. To get started, choose a Page category.</p>
+        </div>
+<!-- THE  IMGES ARENT CENTERED !!! -->
+        <div class="flex justify-center items-center flex-col gap-7 mt-8">
+            <div class="w-[400px] bg-white rounded-sm border border-gray-300 flex flex-col justify-center items-center">
+                <img src="first.png" alt="">
+                <b class="text-xl">Business or Brand</b>
+                <p class="mt-2 mb-4 text-sm text-gray-500 text-center mx-2">Showcase your products and services, spotlight your brand and reach more customers on Facebook.</p>
+                <button class="border border-gray-300 rounded-sm text-sm font-semibold mt-2 mb-5 py-1 px-2 hover:bg-gray-200 hover:duration-300">Get Started</button>
+            </div>
+            <div class="w-[400px] bg-white rounded-sm border border-gray-300 flex flex-col justify-center items-center">
+                <img src="second.png" class="mt-2" alt="">
+                <b class="mt-5 text-xl">Community or Public Figure</b>
+                <p class="mt-2 mb-4 text-sm text-gray-500 text-center mx-2">Connect and share with people in your community, organization, team, group or club.</p>
+                <button class="border border-gray-300 rounded-sm text-sm font-semibold mt-2 mb-5 py-1 px-2 hover:bg-gray-200 hover:duration-500">Get Started</button>
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+    <script src="createPage.js">
+        
+    
+    </script>
+</body>
+</html>
